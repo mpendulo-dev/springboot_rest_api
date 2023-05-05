@@ -10,7 +10,7 @@ import java.util.Optional;
 @RestController
 @RequestMapping("/employee")
 public class EmployeeController {
-
+// Controller: A controller is a Java class that handles the incoming HTTP requests and sends the HTTP response back to the client.
     private final EmployeeService employeeService;
 
     public EmployeeController(EmployeeService employeeService) {

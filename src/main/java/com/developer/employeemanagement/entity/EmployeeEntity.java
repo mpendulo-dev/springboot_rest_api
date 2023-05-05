@@ -4,9 +4,9 @@ import jakarta.persistence.*;
 import java.util.Date;
 
 @Entity
-@Table(name = "mt_employee")
+@Table(name = "employees")
 public class EmployeeEntity {
-
+//    Entity: An entity is a Java class that represents a table in a database.
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     @Column(name = "emp_id")
@@ -15,7 +15,7 @@ public class EmployeeEntity {
     @Column(name = "name")
     private String name;
 
-    @Column(name = "gener")
+    @Column(name = "gender")
     private String gender;
 
     @Column(name = "data_of_birth")

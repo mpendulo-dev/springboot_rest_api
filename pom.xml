@@ -14,7 +14,7 @@
 	<name>employee-management</name>
 	<description>Restful API with PostgreSQL and JPA</description>
 	<properties>
-		<java.version>18</java.version>
+		<java.version>17</java.version>
 	</properties>
 	<dependencies>
 		<dependency>
